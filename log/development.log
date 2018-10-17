@@ -1808,3 +1808,7 @@ Completed 200 OK in 47ms (ActiveRecord: 7.3ms)
 
 Started GET "/products" for 71.205.68.225 at 2018-10-17 20:52:58 +0000
 Cannot render console from 71.205.68.225! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.3ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered products/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 34ms (Views: 32.8ms | ActiveRecord: 0.3ms)
