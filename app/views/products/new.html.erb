@@ -15,9 +15,9 @@
 <% end %>
 
 <script type="text/javascript">
-  $(function(e){
-    $('form', function(){
-      e.preventDefault();
+  $(function(){
+    $('form', function(event){
+      event.preventDefault();
       console.log("YO")
     })
   })
